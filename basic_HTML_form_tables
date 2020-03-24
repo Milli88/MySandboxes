@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+  </head>
+
+  <body>
+    <h1>Fill out the form to Register for Course(s)</h1>
+    <br />
+
+    <form class="form-control">
+      <table>
+        <tr>
+          <td class="text-primary">First Name:</td>
+          <td>
+            <input
+              class="input-sm"
+              type="text"
+              name="firstname"
+              id="firstname"
+              placeholder="Enter First Name"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="text-primary">Last Name:</td>
+          <td>
+            <input
+              class="input-sm"
+              type="text"
+              name="lastname"
+              id="lastname"
+              placeholder="Enter Last Name"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="text-primary">Email:</td>
+          <td>
+            <input
+              class="input-sm"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="e.g. unknown@unknown.com"
+              title="Enter a valid Email"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <td class="text-primary">Password:</td>
+          <td><input class="input-sm" type="password" name="password" /></td>
+        </tr>
+        <tr>
+          <td><br /></td>
+          <td><br /></td>
+        </tr>
+        <tr>
+          <td class="text-primary">Gender:</td>
+          <td>
+            <input type="radio" name="gender" value="male" /> Male
+            <input type="radio" name="gender" value="female" /> Female
+          </td>
+        </tr>
+        <tr>
+          <td class="text-primary">Select Course(s) to Register:</td>
+          <td>
+            <input type="checkbox" name="language" value="html" />HTML
+            <br />
+            <input type="checkbox" name="language" value="php" />PHP
+            <br />
+            <input type="checkbox" name="language" value="c" />C
+            <br />
+            <input type="checkbox" name="language" value="java" />Java
+          </td>
+        </tr>
+        <tr>
+          <td><br /><br /></td>
+        </tr>
+        <tr>
+          <td><input type="submit" class="btn-primary" value="submit" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+
+  <br />
+  <br />
+  <footer><a href="index.html"> Click here to go to the homepage</a></footer>
+</html>
